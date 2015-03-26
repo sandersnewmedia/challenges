@@ -1,0 +1,7 @@
+http://layton.wikia.com/wiki/Puzzle:Number_Lock
+
+The door in front of you has an odd lock mounted on the front. The only way to unlock this strange contraption is to place small tiles labeled from one to nine in its slots. The lock will open when the numbers on the lock equal the same number when multiplied vertically and horizontally.
+
+There are nine tiles, but the lock only has seven slots, so you won't need two tiles.
+
+Can you open the lock?
