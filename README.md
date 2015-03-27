@@ -12,7 +12,7 @@ The motivation for starting Project Euler, and its continuation, is to provide a
 #### Format:
 Project Euler problems usually solve some math related problem. Provide a function named 'answer' that returns a printable solution
 
-`/euler/[4 digit problem number]/[your name].[language extension]`
+`/euler/[4 digit problem number]/[github username].[language extension]`
 `example:/euler/0003/joe.py`
 
 4Clojure
@@ -24,7 +24,7 @@ https://www.4clojure.com/problems
 #### Format:
 4Clojure problems are a 'fill in the blank' format where one expression should satisfy all the expressions presented on the problem page. Answers should be directly copy/paste-able into the 4Clojure site and pass all tests when run.
 
-`/4clojure/[4 digit problem number]/[your name].[language extension]`
+`/4clojure/[4 digit problem number]/[github username].[language extension]`
 `example: /4clojure/0099/sue.js`
 
 The Matasano Crypto Challenges
@@ -38,7 +38,7 @@ This is a different way to learn about crypto than taking a class or reading a b
 #### Format:
 Matasano crypto challenges require you to write code that demonstrates a particular cryptographic weakness. Provide a function named 'answer' that returns a printable solution.
 
-`/matasano/[2 digit set number]/[2 digit problem number]/[your name].[language extension]`
+`/matasano/[2 digit set number]/[2 digit problem number]/[github username].[language extension]`
 `example: /matasano/01/03/bob.hs`
 
 
@@ -47,5 +47,5 @@ Matasano crypto challenges require you to write code that demonstrates a particu
 1. Select a single problem from one of the challenges listed above.
 2. Solve the problem in the language of your choice.
 3. If possible, provide a function that clearly and obviously demonstrates the solution to the problem. This may not be relevant for all challenges or problems.
-4. Create a file in the format [your name].[language extension] nested appropriately in the challenge's directory with your solution. The directory structure for each challenge set is documented above.
+4. Create a file in the format [github username].[language extension] nested appropriately in the challenge's directory with your solution. The directory structure for each challenge set is documented above.
 5. Repeat!
