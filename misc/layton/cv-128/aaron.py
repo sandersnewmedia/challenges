@@ -1,8 +1,3 @@
-# layton CV128 number-lock
-# [1,None,2]
-# [1,  2, 2]
-# [1,None,2]
-
 import random
 
 possible_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
