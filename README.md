@@ -9,11 +9,11 @@ Project Euler is a series of challenging mathematical/computer programming probl
 
 The motivation for starting Project Euler, and its continuation, is to provide a platform for the inquiring mind to delve into unfamiliar areas and learn new concepts in a fun and recreational context.
 
-#### Structure:
+#### Format:
 Project Euler problems usually solve some math related problem. Provide a function named 'answer' that returns a printable solution
 
-/euler/[4 digit problem number]/[your name].[language extension]
-example:/euler/0003/joe.py
+`/euler/[4 digit problem number]/[your name].[language extension]`
+`example:/euler/0003/joe.py`
 
 4Clojure
 --------
@@ -21,11 +21,11 @@ https://www.4clojure.com/problems
 
 4Clojure is a resource to help fledgling clojurians learn the language through interactive problems. The first few problems are easy enough that even someone with no prior experience should find the learning curve forgiving. See 'Help' for more information.
 
-#### Structure:
+#### Format:
 4Clojure problems are a 'fill in the blank' format where one expression should satisfy all the expressions presented on the problem page. Answers should be directly copy/paste-able into the 4Clojure site and pass all tests when run.
 
-/4clojure/[4 digit problem number]/[your name].[language extension]
-example: /4clojure/0099/sue.js
+`/4clojure/[4 digit problem number]/[your name].[language extension]`
+`example: /4clojure/0099/sue.js`
 
 The Matasano Crypto Challenges
 ------------------------------
@@ -35,11 +35,11 @@ We've built a collection of 48 exercises that demonstrate attacks on real-world 
 
 This is a different way to learn about crypto than taking a class or reading a book. We give you problems to solve. They're derived from weaknesses in real-world systems and modern cryptographic constructions. We give you enough info to learn about the underlying crypto concepts yourself. When you're finished, you'll not only have learned a good deal about how cryptosystems are built, but you'll also understand how they're attacked.
 
-#### Structure:
+#### Format:
 Matasano crypto challenges require you to write code that demonstrates a particular cryptographic weakness. Provide a function named 'answer' that returns a printable solution.
 
-/matasano/[2 digit set number]/[2 digit problem number]/[your name].[language extension]
-example: /matasano/01/03/bob.hs
+`/matasano/[2 digit set number]/[2 digit problem number]/[your name].[language extension]`
+`example: /matasano/01/03/bob.hs`
 
 
 # How to participate
