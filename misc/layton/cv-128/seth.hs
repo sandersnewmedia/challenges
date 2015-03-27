@@ -5,7 +5,7 @@ type Key = ([Integer], [Integer], [Integer])
 -- generate all Integer triples e.g [[0,0,0],[0,0,1],[0,0,2], etc..]
 triples :: [[Integer]]
 triples = [[x, y, z] | x <- [1..9], y <- [1..9], z <- [1..9],
-                        x /= y, y /= z, x /= z]
+                       x /= y, y /= z, x /= z]
 
 -- generate all keys
 keys :: [Key]
