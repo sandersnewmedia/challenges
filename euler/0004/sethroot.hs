@@ -1,3 +1,4 @@
+import Control.Monad (ap)
 import Data.List (sort)
 
 palindrome :: (Eq a) => [a] -> Bool
@@ -7,8 +8,15 @@ digits3 :: [Integer]
 digits3 = [100..999]
 
 palindromes3 :: [Integer]
-palindromes3 = [a * b | a <- digits3, b <- digits3,
-                palindrome $ show $ a * b]
+palindromes3 = [a * b | a <- digits3, b <- digits3]
 
 answer :: Integer
-answer = last $ sort palindromes3
+answer = read . last . (filter palindrome) . (map show) $ sort palindromes3 :: Integer
+
+-- BONUS: one liner
+answer2 :: Integer
+answer2 = read .
+          last .
+          (filter (ap (==) reverse)) .
+          (map show) $
+          sort [a * b | a <- [100..999], b <- [100..999]] :: Integer
