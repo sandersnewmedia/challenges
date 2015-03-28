@@ -10,7 +10,7 @@ Project Euler is a series of challenging mathematical/computer programming probl
 The motivation for starting Project Euler, and its continuation, is to provide a platform for the inquiring mind to delve into unfamiliar areas and learn new concepts in a fun and recreational context.
 
 #### Format:
-Project Euler problems usually solve some math related problem. Provide a function named 'answer' that returns a printable solution
+Project Euler problems are mathematical and it's solutions produce a numeric result. Provide a function named 'answer' that returns a printable solution
 
 `/euler/[4 digit problem number]/[github username].[language extension]`
 `example:/euler/0003/joe.py`
