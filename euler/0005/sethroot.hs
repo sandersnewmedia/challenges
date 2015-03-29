@@ -13,15 +13,15 @@ rangeLimit = 20
 range :: [Int]
 range = enumFromTo 1 rangeLimit
 
-factorsForRange :: [Int] -> Int -> [Int]
-factorsForRange r n = [a| a <- r, isFactor n a]
+-- evaluates to all the numbers in range r that are factors of n
+factorsFromRange :: [Int] -> Int -> [Int]
+factorsFromRange r n = [a| a <- r, isFactor n a]
 
--- smallest number will contain all primes as factors and the range limit
-start :: Int
-start = product . (union [rangeLimit]) $ [a | a <- range, isPrime a]
-
-has20Factors :: Int -> Bool
-has20Factors = (== rangeLimit) . length . (factorsForRange range)
+-- smallest number to consider
+-- will contain all primes as factors as well as the range limit
+lowBound :: Int
+lowBound = product . (union [rangeLimit]) $ [a | a <- range, isPrime a]
 
 answer :: Int
-answer = head . (filter has20Factors) $ enumFrom start
+answer = head . (filter pred) $ enumFrom lowBound
+  where pred = (== rangeLimit) . length . (factorsFromRange range)
