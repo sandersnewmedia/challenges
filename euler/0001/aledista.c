@@ -11,6 +11,6 @@ int main() {
 }
 
 /*
-Compile: gcc alessiodistasio.c -o alessiodistasio
-Run: ./alessiodistasio
+Compile: gcc aledista.c -o aledista
+Run: ./aledista
 */
