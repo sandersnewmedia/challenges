@@ -1,6 +1,3 @@
-import Data.List (product, union)
-import Data.Monoid
-
 isFactor :: (Integral a) => a -> a -> Bool
 isFactor comp fact = comp `rem` fact == 0
 
