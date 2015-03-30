@@ -8,7 +8,7 @@ isPrime :: Int -> Bool
 isPrime n = not . getAny . mconcat . map Any $ [isFactor n a | a <- [2 .. (n - 1)]]
 
 rangeLimit :: Int
-rangeLimit = 10
+rangeLimit = 20
 
 range :: [Int]
 range = enumFromTo 1 rangeLimit
